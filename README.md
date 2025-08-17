@@ -19,7 +19,7 @@ A production-ready FastAPI server that acts as a secure relay for OpenAI API cal
 1. **Clone and setup**:
    ```bash
    git clone <repository-url>
-   cd openai-relay-server
+   cd ai-chat-relay-server
    cp .env.example .env
    ```
 
@@ -135,7 +135,7 @@ The server implements rate limiting using a token bucket algorithm:
 
 2. **Using Docker Swarm**:
    ```bash
-   docker stack deploy -c docker-compose.prod.yml openai-relay
+   docker stack deploy -c docker-compose.prod.yml ai-chat-relay
    ```
 
 3. **Environment Setup**:
