@@ -93,6 +93,9 @@ A production-ready FastAPI server that acts as a secure relay for OpenAI API cal
 | `OPENAI_API_KEY` | OpenAI API key | Required |
 | `OPENAI_BASE_URL` | OpenAI API base URL | `https://api.openai.com/v1` |
 | `DEFAULT_MODEL` | Default OpenAI model | `gpt-4o-mini` |
+| `PERPLEXITY_API_KEY` | Perplexity API key | Required |
+| `PERPLEXITY_BASE_URL` | Perplexity API base URL | `https://api.perplexity.ai` |
+| `DEFAULT_MODEL` | Default Perplexity model | `sonar` |
 | `ALLOWED_ORIGINS` | CORS allowed origins | `["http://localhost:3000"]` |
 | `RATE_LIMIT_REQUESTS` | Requests per window | `100` |
 | `RATE_LIMIT_WINDOW` | Rate limit window (seconds) | `3600` |
